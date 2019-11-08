@@ -35,9 +35,7 @@ class MyAdvertisedDeviceCallbacks : public BLEAdvertisedDeviceCallbacks {
     Serial.printf("addr=%s rssi=%d uuid=%s,major=%d,minor=%d,power=%d\n",
                   ble_addr.toString().c_str(), rssi, uuid, major, minor, power);
   }
-}
-}
-;
+};
 
 void setup() {
   Serial.begin(115200);
